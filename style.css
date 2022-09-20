@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(45deg, #8500ff, #5acaff);
+    height: 100vh;
+}
+
+#container{
+    position: absolute;  
+    top: 15%;
+    left: 15%;
+    bottom: 15%;
+    right: 15%;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(45deg, #8500ff, #5acaff);
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.7);
+}
+
+#container .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+#container .content h2{
+    font-size: 18vw;
+    color: #fff;
+    line-height: 1em;
+    user-select: none;
+}
+
+#container .content h4{
+    position: relative;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #111;
+    user-select: none;
+
+    margin-bottom: 16px;
+    padding: 10px 20px;
+    background: #fff;
+    display: inline-block;   /*the div no dai, inline-block se bao phu vua du chu ko du*/
+    border-radius: 25px;
+}
+
+#container .content p{
+    font-size: 1.4em;
+    color: #fff;
+    user-select: none;
+}
+
+#container .content a{
+    position: relative;
+    display: inline-block;
+    background: #ff0562;
+
+    font-size: 1.4em;
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    
+    padding: 8px 16px;
+    margin-top: 28px;
+    border-radius: 25px;
+}
+
